@@ -56,9 +56,6 @@ item_coordinates = { # Made for 1980 x 1080 Monitor
 
 images = ["stats_meinc.png", "stats_sesh.png", "stats_vrt.png"]
 
-
-
-
 def main():
     mode = ["buy", True]
 
@@ -76,7 +73,6 @@ def main():
     while True:
         mode = logic(mode[0], mode[1])
         
-
 def logic(newmode, whatbought):
     prices = {}
     bought = whatbought
@@ -329,7 +325,6 @@ def print_logo():
     print(f"                            \__|                    ")             
     return 0 
 
-
 def translate(image):
     img = Image.open(image)
     img = img.convert("L")
@@ -339,7 +334,6 @@ def translate(image):
     price_data = output[0:-2]
     price_data = price_data.split("$")
     return price_data
-
 
 def scan_all(list):
     allout = {}

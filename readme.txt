@@ -1,9 +1,11 @@
+***DEPRECIATED AND NOT WORKING -> PLEASE SEE MIAPCI 1.0 FOR CURRENT VERSION***
+
 [Name]
-Miami Investment Association's Project Creek Island 
+Miami Investment Association's Project Creek Island V. BETA
 
 
 [Author]
-LocalKebabShackOwner
+LocalKebabShackOwner with edits from Bayewq
 
 
 [Installation]
